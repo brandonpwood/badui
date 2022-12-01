@@ -1,23 +1,31 @@
 
 var messages = [
     "Welcome!",
-    
+
     "This is an interactive text instantiation of the book Introductioun to Graph Algorithms by Cormen, Leiserson, Rivest, and Stein",
 
-    "The goal of this book-object is to draw on user interface "+
-    "aspects fromearlier technologies in a webpage to"+
+    "The goal of this book-object is to draw on user interface " +
+    "aspects fromearlier technologies in a webpage to" +
     "explore what it means to be a book-object or a text",
 
-    "The original intention of these  was to service"+
+    "The original intention of these  was to service " +
     "functionality, however",
-    
-    "I wrote a paper earlier on in the year that explores how skeuomorphs are subverted"+
-    "by the Gutenberg Project (see below) to produce non-effective skeuomorphs",
-    
-    "The goal of this project is to take that idea further and develop "+
-    "so-called anti-skeuomorphs that use motifs from old technology to hinder, "+
+
+    "I wrote a paper earlier on in the year that explores how skeuomorphs are subverted" +
+    " by the Gutenberg Project (see below) to produce non-effective skeuomorphs",
+
+    "The goal of this project is to take that idea further and develop " +
+    "so-called anti-skeuomorphs that use motifs from old technology to hinder, " +
     "rather than aid, the users' understanding",
-    
+
+    "As a result, each page draws on some print or manuscript technology to " +
+    "produce an antagonistic user experience",
+
+    "The overall navigation scheme is, after a random amount of time, a random " +
+    "is selected. I encourage some exploration of the concepts explored here, and " +
+    "if you're really bored, to try to piece together what the flow of the chapter is",
+
+
     // "I wanted the overall experience to be unified in some way, and I thought there wouldn't"+
     // "be a better way than to impede a reading experience than to model page navigation"+
     // "after a univeristy course",
@@ -41,8 +49,8 @@ var messages = [
 ];
 
 
-function display_messages(){
-    for(let i = 0; i< messages.length; i++){
+function display_messages() {
+    for (let i = 0; i < messages.length; i++) {
         alert(messages[i]);
     }
 }
@@ -50,4 +58,4 @@ function display_messages(){
 // Couldn't get the right behavior from the window.onload event, or by using jquery or a defer tag
 // So I've resorted to this hacky fix
 
-setTimeout(() => {display_messages()}, 100); 
+setTimeout(() => { display_messages() }, 100); 
