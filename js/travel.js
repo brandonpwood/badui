@@ -10,10 +10,10 @@ function gen_random_page(page_list, weights){
 }
 
 function get_random_page(){
-    var pages = ["index.html", "font.html", "audio.html", "scroll.html", "pali.html"]
-    var weights = [1, 2, 5, 2, 1]
+    var pages = ["index.html", "font.html", "audio.html", "scroll.html", "pali.html", "appendix.html"]
+    var weights = [1, 4, 2, 2, 2, 1]
     window.location.href = gen_random_page(pages, weights);
 }
-var reading_time = Math.ceil(Math.random()*10000);
+var reading_time = Math.ceil(Math.random()*15000);
 console.log(reading_time);
-// setTimeout(() => {get_random_page();}, reading_time); 
+setTimeout(() => {get_random_page();}, reading_time); 

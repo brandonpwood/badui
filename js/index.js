@@ -2,7 +2,7 @@
 var messages = [
     "Welcome!",
     
-    "This is an interactive text instantiation of the book",
+    "This is an interactive text instantiation of the book Introductioun to Graph Algorithms by Cormen, Leiserson, Rivest, and Stein",
 
     "The goal of this book-object is to draw on user interface "+
     "aspects fromearlier technologies in a webpage to"+
@@ -18,25 +18,25 @@ var messages = [
     "so-called anti-skeuomorphs that use motifs from old technology to hinder, "+
     "rather than aid, the users' understanding",
     
-    "I wanted the overall experience to be unified in some way, and I thought there wouldn't"+
-    "be a better way than to impede a reading experience than to model page navigation"+
-    "after a univeristy course",
+    // "I wanted the overall experience to be unified in some way, and I thought there wouldn't"+
+    // "be a better way than to impede a reading experience than to model page navigation"+
+    // "after a univeristy course",
 
-    "While this isn't quite an anti-skeuomorph, the pedagogical methods are so outdated"+
-    "and so out of touch that, were they an art project labeled as an anti-skeuomorph,"+
-    " I'd believe you",
+    // "While this isn't quite an anti-skeuomorph, the pedagogical methods are so outdated"+
+    // "and so out of touch that, were they an art project labeled as an anti-skeuomorph,"+
+    // " I'd believe you",
 
-    "Thus, page navigation is conducted at random, both in terms of reading time and"+
-    "which page occurs next",
+    // "Thus, page navigation is conducted at random, both in terms of reading time and"+
+    // "which page occurs next",
 
-    "It may feel at times like you have to memorize parts of each page and recall that information at random to"+
-    "progress through the book",
+    // "It may feel at times like you have to memorize parts of each page and recall that information at random to"+
+    // "progress through the book",
 
-    "This is because you'll be expected to learn the content at a pace that matches that of your peers"+
-    "and we, here at Cornell, believe that exposure to a broad range of ideas and concepts"+
-    "is fundamental to a genuine education",
+    // "This is because you'll be expected to learn the content at a pace that matches that of your peers"+
+    // "and we, here at Cornell, believe that exposure to a broad range of ideas and concepts"+
+    // "is fundamental to a genuine education",
 
-    "It's named Ezra because, after some digging, it seems the earliest record of grading is attributable to a president of Yale, Ezra Stiles",
+    // "It's named Stiles because, after some digging, it seems the earliest record of grading is attributable to a president of Yale, Ezra Stiles",
     "Please forgive me"
 ];
 
